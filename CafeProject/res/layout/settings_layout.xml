@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/cafe_find_layout" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="5dp"
+            android:text="Wybierz kryterium sortowania"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerSort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:entries="@array/spinner_entries" />
+
+        <RadioGroup
+            android:id="@+id/rgSort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp" >
+
+            <RadioButton
+                android:id="@+id/radioASC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text=" Rosnąco" />
+
+            <RadioButton
+                android:id="@+id/radioDESC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Malejąco" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:text="Liczba wyników"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:text="Rodaj mapy"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp" >
+
+            <RadioButton
+                android:id="@+id/radioSatellite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text=" Satelitarna" />
+
+            <RadioButton
+                android:id="@+id/radioTerrain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Terenowa" />
+
+            <RadioButton
+                android:id="@+id/radioStandard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Standardowa" />
+        </RadioGroup>
+    </LinearLayout>
+
+</ScrollView>

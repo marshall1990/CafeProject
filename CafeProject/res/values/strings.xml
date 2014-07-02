@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CafeClub</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="no_found_cafes">Nie znaleziono kawiarni.</string>
+    <string name="monday">Pn.</string>
+    <string name="tuesday">Wt.</string>
+    <string name="wednesday">Śr.</string>
+    <string name="thursday">Cz.</string>
+    <string name="friday">Pt.</string>
+    <string name="saturday">Sb.</string>
+    <string name="sunday">Nd.</string>
+    <string name="send">Wyślij</string>
+    <string name="ok">OK</string>
+    <string name="check_entered_data_title">Wystąpił błąd!</string>
+    <string name="check_entered_data_message">Sprawdź wprowadzone dane.</string>
+    <string name="success_add_cafe_title">Dodano nową kawiarnię!</string>
+    <string name="success_add_cafe_message">Kawiarnia zostanie dodana do aplikacji zaraz po przejściu przez proces weryfikacji.</string>
+    <string name="add">Dodaj</string>
+    <string name="add_cafe_alert_title">Podaj swój adres e-mail.</string>
+    <string name="enter_valid_email">Podaj poprawny adres e-mail.</string>
+    <string name="product">Produkt</string>
+    <string name="table">Stolik</string>
+    <string name="enter_valid_data">Wprowadź poprawne dane.</string>
+    <string name="enter_data">Wprowadź dane.</string>
+    <string name="login">Zaloguj</string>
+    <string name="logout">Wyloguj</string>
+    <string name="login_hint">Wpisz swój login.</string>
+    <string name="password_hint">Wpisz swoje hasło.</string>
+    <string name="incorrect_login_or_password">Nieprawidłowy login lub hasło.</string>
+    <string name="logout_info">Czy na pewno chcesz się wylogować?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="table_number">Stolik numer: </string>
+    <string name="number_of_seats">Ilość miejsc: </string>
+    <string name="book_table_info_offline">Aby zarezerwować stolik zaloguj się.</string>
+    <string name="book_table_info_online">Aby zarezerwować stolik zaznacz wybrane pozycje oraz zatwierdź swój wybór. </string>
+    <string name="error_while_send_data">Wystąpił błąd podczas wysyłania danych. Spróbuj jeszcze raz.</string>
+    <string name="vote_info">Dziękujemy za oddanie głosu!</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Lokalizacje</item>
+        <item>Kawiarnie</item>
+        <item>Wydarzenia</item>
+        <item>Dodaj lokal</item>
+        <item>Szukaj</item>
+        <item>Zaloguj</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_cafes</item>
+        <item>@drawable/ic_events</item>
+        <item>@drawable/ic_add_cafe</item>
+        <item>@drawable/ic_search</item>
+        <item>@drawable/ic_login</item>
+    </array>
+
+    <string-array name="tab_add_cafe_items">
+        <item>Adres</item>
+        <item>Szczegóły</item>
+        <item>Godziny otwarcia</item>
+        <item>Stoliki</item>
+        <item>Menu</item>
+    </string-array>
+    <string-array name="spinner_entries">
+        <item>Nazwa</item>
+        <item>Ulica</item>
+        <item>Dzielnica</item>
+    </string-array>
+
+</resources>
